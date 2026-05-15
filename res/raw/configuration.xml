@@ -4,6 +4,15 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <configuration>
+    <!-- Fields required by Google TV launcher -->
+
+    <country value="all">
+        <basic-mode-live-tv-app-uri value="" />
+        <epg-app-deep-link url="" />
+        <oem-tab-content-provider-uri value="" />
+        <oem-tab-content-provider-package-name value="" />
+    </country>
+
     <!-- Home Screen search icon -->
 
     <!-- OEMs can define which apps will show up in the favorite apps row out of
